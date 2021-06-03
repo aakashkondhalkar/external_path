@@ -22,7 +22,7 @@ class ExternalPath {
         await _channel.invokeMethod('getExternalStorageDirectories');
 
     List<String> storageInfos = externalStorageDirs
-        .map((storageInfoMap) => StorageInfo.getRootDir(storageInfoMap))
+        .map((storageInfoMap) => ExStorageInfo.getRootDir(storageInfoMap))
         .toList();
     return storageInfos;
   }
@@ -34,7 +34,7 @@ class ExternalPath {
   }
 }
 
-class StorageInfo {
+class ExStorageInfo {
   static String getRootDir(String appFilesDir) {
     return appFilesDir
         .split("/")
