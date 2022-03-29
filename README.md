@@ -26,7 +26,7 @@ Below given table contains the types of argument you can pass to `getExternalSto
 
 ## Usage
 
-First Add `external_path` as a dipendency in your project `pubspeck.yaml`.
+First Add `external_path` as a dependency in your project `pubspec.yaml`.
 
 Then, import `external_path` package.
 
