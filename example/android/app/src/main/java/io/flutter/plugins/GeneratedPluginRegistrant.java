@@ -2,6 +2,7 @@ package io.flutter.plugins;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
+import io.flutter.Log;
 
 import io.flutter.embedding.engine.FlutterEngine;
 
@@ -12,7 +13,12 @@ import io.flutter.embedding.engine.FlutterEngine;
  */
 @Keep
 public final class GeneratedPluginRegistrant {
+  private static final String TAG = "GeneratedPluginRegistrant";
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
-    flutterEngine.getPlugins().add(new com.pinciat.external_path.ExternalPathPlugin());
+    try {
+      flutterEngine.getPlugins().add(new com.pinciat.external_path.ExternalPathPlugin());
+    } catch(Exception e) {
+      Log.e(TAG, "Error registering plugin external_path, com.pinciat.external_path.ExternalPathPlugin", e);
+    }
   }
 }

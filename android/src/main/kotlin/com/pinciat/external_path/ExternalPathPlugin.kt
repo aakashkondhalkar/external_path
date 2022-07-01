@@ -12,6 +12,7 @@ import android.content.Context
 import java.io.File
 import io.flutter.plugin.common.PluginRegistry.Registrar
 import android.os.Build
+import kotlin.collections.ArrayList 
 
 /** ExternalPathPlugin */
 class ExternalPathPlugin: FlutterPlugin, MethodCallHandler {
