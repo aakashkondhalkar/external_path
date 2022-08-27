@@ -1,11 +1,11 @@
 name: external_path
 description: A flutter plugin to get internal, external storage and external public directory path.
-version: 1.0.1
+version: 1.0.3
 homepage: https://github.com/aakashkondhalkar/external_path.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.20.0"
+  flutter: ">=2.17.5"
 
 dependencies:
   flutter:
