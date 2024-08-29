@@ -33,6 +33,10 @@ android {
     defaultConfig {
         minSdkVersion 16
     }
+
+    if (project.android.hasProperty("namespace")) {
+        namespace 'com.pinciat.external_path'
+    }
 }
 
 dependencies {
