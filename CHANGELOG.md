@@ -1,7 +1,10 @@
+## 2.0.1
+
+- FIXED: Typo in README.md
+
 ## 2.0.0
 
 - FIXED: Gradle-Upgrade 8.0 fails [#10](https://github.com/aakashkondhalkar/external_path/issues/10). Thanks to the PR from [abdelaziz-mahdy](https://github.com/abdelaziz-mahdy)
-- REQUIRED: Minimum flutter sdk 3.24.0
 
 ## 1.0.3
 
