@@ -10,7 +10,6 @@ import io.flutter.plugin.common.MethodChannel.Result
 import android.os.Environment
 import android.content.Context
 import java.io.File
-import io.flutter.plugin.common.PluginRegistry.Registrar
 import android.os.Build
 import kotlin.collections.ArrayList 
 
@@ -27,14 +26,6 @@ class ExternalPathPlugin: FlutterPlugin, MethodCallHandler {
     context = flutterPluginBinding.applicationContext
     channel = MethodChannel(flutterPluginBinding.binaryMessenger, "external_path")
     channel.setMethodCallHandler(this)
-  }
-
-  companion object {
-  @JvmStatic
-  fun registerWith(registrar: Registrar) {
-    val channel = MethodChannel(registrar.messenger(), "external_path")
-    channel.setMethodCallHandler(ExternalPathPlugin())
-    }
   }
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
