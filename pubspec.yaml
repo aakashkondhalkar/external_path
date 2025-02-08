@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
   flutter_test:
@@ -28,6 +29,8 @@ flutter:
     platforms:
       android:
         package: com.pinciat.external_path
+        pluginClass: ExternalPathPlugin
+      ios:
         pluginClass: ExternalPathPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
