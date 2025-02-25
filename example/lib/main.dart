@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
     var path1 = await ExternalPath.getExternalStoragePublicDirectory(
         ExternalPath.DIRECTORY_CACHES);
     var path2 = await ExternalPath.getExternalStoragePublicDirectory(
-        ExternalPath.DIRECTORY_DOWNLOADS);
+        ExternalPath.DIRECTORY_DOWNLOAD);
     var path3 = await ExternalPath.getExternalStoragePublicDirectory(
         ExternalPath.DIRECTORY_LIBRARY);
     var path4 = await ExternalPath.getExternalStoragePublicDirectory(
