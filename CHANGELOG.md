@@ -1,3 +1,7 @@
+## 2.1.0
+
+- ADDED: iOS support.
+
 ## 2.0.1
 
 - FIXED: Typo in README.md
