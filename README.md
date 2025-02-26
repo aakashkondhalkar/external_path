@@ -9,20 +9,24 @@ https://pub.dev/packages/external_path
 `ExternalPath.getExternalStoragePublicDirectory()` needs Public Directory Type argument
 Below given table contains the types of argument you can pass to `getExternalStoragePublicDirectory()` function
 
-| ExternalPath                         |
-| ------------------------------------ |
-| ExternalPath.DIRECTORY_MUSIC         |
-| ExternalPath.DIRECTORY_PODCASTS      |
-| ExternalPath.DIRECTORY_RINGTONES     |
-| ExternalPath.DIRECTORY_ALARMS        |
-| ExternalPath.DIRECTORY_NOTIFICATIONS |
-| ExternalPath.DIRECTORY_PICTURES      |
-| ExternalPath.DIRECTORY_MOVIES        |
-| ExternalPath.DIRECTORY_DOWNLOADS     |
-| ExternalPath.DIRECTORY_DCIM          |
-| ExternalPath.DIRECTORY_DOCUMENTS     |
-| ExternalPath.DIRECTORY_SCREENSHOTS   |
-| ExternalPath.DIRECTORY_AUDIOBOOKS    |
+| Directory                            | Android | iOS   |
+| ------------------------------------ | :---: | :---:
+| ExternalPath.DIRECTORY_MUSIC         |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_PODCASTS      |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_RINGTONES     |✔️     | ❌️    |
+| ExternalPath.DIRECTORY_ALARMS        |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_NOTIFICATIONS |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_PICTURES      |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_MOVIES        |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_DOWNLOAD      |✔️      | ✔️    |
+| ExternalPath.DIRECTORY_DCIM          |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_DOCUMENTS     |✔️      | ✔️    |
+| ExternalPath.DIRECTORY_SCREENSHOTS   |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_AUDIOBOOKS    |✔️      | ❌️    |
+| ExternalPath.DIRECTORY_CACHES    |❌️      | ✔️    |
+| ExternalPath.DIRECTORY_LIBRARY    |❌️      | ✔️    |
+| ExternalPath.DIRECTORY_APPLICATION_SUPPORT    |❌️      | ✔️    |
+
 
 ## Usage
 
