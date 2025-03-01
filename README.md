@@ -52,7 +52,7 @@ Package has two functions
 
   // To get public storage directory path
   Future<void> getPath_2() async {
-    var path = await ExternalPath.getExternalStoragePublicDirectory(ExternalPath.DIRECTORY_DOWNLOADS);
+    var path = await ExternalPath.getExternalStoragePublicDirectory(ExternalPath.DIRECTORY_DOWNLOAD);
     print(path);  // /storage/emulated/0/Download
   }
 ```
