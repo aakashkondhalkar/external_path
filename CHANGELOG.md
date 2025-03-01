@@ -1,6 +1,6 @@
-## 2.0.2
+## 2.1.0
 
-- Removes references to Flutter v1 android embedding classes.
+- ADDED: iOS support.
 
 ## 2.0.1
 
