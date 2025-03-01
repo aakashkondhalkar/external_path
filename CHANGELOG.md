@@ -1,3 +1,11 @@
+## 2.2.0
+
+- FIXED: Unresolved reference: Registrar [#15](https://github.com/aakashkondhalkar/external_path/issues/15) Thanks to the PR from [yavuzfeti](https://github.com/yavuzfeti)
+- FIXED: Removed References to deprecated v1 Android embedding [#11](https://github.com/aakashkondhalkar/external_path/pull/11) Thanks to the PR from [yaakovschectman](https://github.com/yaakovschectman)
+- Required minimum java SDK 17.
+- Update kotlin version to 1.8.10
+- Set minimum flutter sdk to 3.22.0 & dart SDK to 3.4.0
+
 ## 2.1.0
 
 - ADDED: iOS support.
