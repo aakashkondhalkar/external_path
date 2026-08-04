@@ -9,12 +9,14 @@ let package = Package(
     products: [
         .library(name: "external-path", targets: ["external_path"])
     ],
-    dependencies: [],
+    dependencies: [
+        .package(name: "FlutterFramework", path: "../FlutterFramework")
+    ],
     targets: [
         .target(
             name: "external_path",
             dependencies: [
-                .product(name: "Flutter", package: "Flutter")
+                .product(name: "FlutterFramework", package: "FlutterFramework")
             ],
             path: "Sources/external_path"
         )
