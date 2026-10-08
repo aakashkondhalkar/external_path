@@ -1,4 +1,10 @@
+## 3.1.0
+
+- Migrate to built-in Kotlin
+- Bump Dart version to 3.13.5 & minimum Flutter version to 3.47.6
+
 ## 3.0.0
+
 - Bump Dart version to 3.12 & minimum Flutter version to 3.44.0.
 - ADDED: Swift Package Manager (SPM) support for iOS.
 - ADDED: support for the iOS UIScene lifecycle. 
